@@ -91,12 +91,13 @@ text-align: center;
     cursor: pointer;
     letter-spacing: 0.04em;
     color: #ffffff;
+    background-color: #4D5AE5;
 }
 
 
 .first-button :hover,
 .first-button:focus{
-    background-color: #4D5AE5;
+    background-color: #404bbf;
 }
 
 
