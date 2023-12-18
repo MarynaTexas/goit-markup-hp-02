@@ -88,16 +88,14 @@ text-align: center;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5; 
-    background-color:#4D5AE5;
     cursor: pointer;
-    letter-spacing: 0.04;
     
 }
 
 
 .first-button :hover,
 .first-button:focus{
-    background-color: #404bbF;
+    background-color: #4D5AE5;
 }
 
 
@@ -129,6 +127,7 @@ text-align: center;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    text-align: center;
  }
 
  .team-cart{
@@ -159,6 +158,7 @@ text-align: center;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color:  #2E2F42;
+    text-align: center;
 
 }
 
