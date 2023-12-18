@@ -1,7 +1,7 @@
 body{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    line-height: 24px; 
+    line-height: 1.5; 
     letter-spacing: 0.02em;
     color: #434455;
     background-color: #FFFFFF
@@ -12,7 +12,7 @@ body{
    font-family: 'Raleway', sans-serif;
    color: #4D5AE5;
    font-size: 18px;
-   line-height: 21px;
+   line-height: 1.16;
    letter-spacing: 0.02em;
    font-weight: 700;
 }
@@ -20,7 +20,7 @@ body{
 .logo-span{
     color: #2E2F42;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.16;
     letter-spacing: 0.02em;
     font-weight: 700;
 }
@@ -36,14 +36,14 @@ ul{
 .list-item-link{
     color:  #2E2F42;
    font-size: 16px;
-   line-height: 24px; 
+   line-height:1.5; 
    letter-spacing: 0.02em;
-
+   font-weight: 500;
 }
 
 .list-item-link:hover,
 .list-item-link:focus{
-color: #4d5ae5;
+color: #40466F;
 }
 
 .address{
@@ -81,7 +81,7 @@ text-align: center;
 
 
 .first-button{
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif ;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -103,15 +103,16 @@ text-align: center;
 
 .advantages-title{
   font-size: 20px;
-  line-height: 24px; 
+  line-height: 1.2; 
   letter-spacing: 0.02em;
   color:  #2E2F42;
+  font-weight: 500;
 }
 
 
 .advantages-text{
     font-size: 16px;
-    line-height: 24px; 
+    line-height: 1.5; 
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -124,22 +125,30 @@ text-align: center;
 
 .team-text{
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    text-align: centre;
+    text-transform: capitalize;
  }
+
+ .team-cart{
+    background-color: #FFFFFF;
+ }
+
 
 .photo{
   font-size: 20px;
-  line-height: 24px; 
+  line-height: 1.2; 
   letter-spacing: 0.02em;
   color: #2E2F42;
+  font-weight: 500;
 }
 
 
 .photo-text{
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color:  #434455;
 }
@@ -176,7 +185,7 @@ text-align: center;
 
 .footer-text{
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
@@ -184,14 +193,19 @@ text-align: center;
 .footer-web{
     color: #4D5AE5;
     font-size: 18px;
-    line-height: 21px; 
+    line-height: 1.16; 
     letter-spacing: 0.02em;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .footer-studio{
     color:  #F4F4FD;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.16;
     letter-spacing: 0.02em;
 
 }
