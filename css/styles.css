@@ -1,8 +1,6 @@
-.body{
+body{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px; 
     letter-spacing: 0.02em;
     color: #434455;
@@ -10,18 +8,8 @@
 }
 
 
-.header{
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    background:  #FFF;
-}
-
-.nav{
-   background: #FFF;
-
-}
-
 .logo{
+   font-family: 'Raleway', sans-serif;
    color: #4D5AE5;
    font-size: 18px;
    line-height: 21px;
@@ -37,25 +25,12 @@
     
 }
 
-.a{
+a{
     text-decoration: none;
 }
 
 
-.list-nav{
-    background: #FFF;
-
-}
-
-
-.list-item{
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-}
-
-
-.link{
+.list-item-link{
     color:  #2E2F42;
    font-size: 16px;
    line-height: 24px; 
@@ -66,7 +41,6 @@
 
 .address{
     font-style: normal;
-    margin-left: auto
 
 }
 
@@ -79,7 +53,7 @@ color: #434455;
 
 }
  
-.adress-link:hover
+.adress-link:hover,
 .adress-link:focus{
     color: #404bbf;
 }
@@ -89,17 +63,17 @@ color: #434455;
     background: #2E2F42;
 }
 
-.firs-title{
+.first-title{
 font-size: 56px;
 line-height: 1.07; 
-letter-spacing: 0.02em
+letter-spacing: 0.02em;
 color:  #FFF;
 text-align: center;
 
 }
 
 
-.button{
+.first-button{
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -107,30 +81,22 @@ text-align: center;
     line-height: 1.5; 
     letter-spacing: 0.04;
     color: #FFF;
+    cursor: pointer;
 }
 
 
-.firs-button :hover
+.first-button :hover,
 .first-button:focus{
     background-color: #404bbf 
 }
 
 
 
-
-
-.advantages{
-font-size: 56px;
-line-height: 60px; 
-letter-spacing: 0.02em;
-color:  #2E2F42;
-}
-
-
 .advantages-title{
   font-size: 20px;
   line-height: 24px; 
   letter-spacing: 0.02em;
+  color:  #2E2F42;
 }
 
 
@@ -151,7 +117,7 @@ color:  #2E2F42;
     font-size: 36px;
     line-height: 40px;
     letter-spacing: 0.02em;
-    color:  #2E2F42;
+    color: #2E2F42;
  }
 
 .photo{
@@ -163,15 +129,13 @@ color:  #2E2F42;
 
 
 .photo-text{
+    font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color:  #434455;
 }
 
 
-.portfolio{
-    background: #FFF;
-}
 
 .portfolio-text{
     font-size: 36px;
@@ -197,13 +161,11 @@ color:  #2E2F42;
 
 .footer{
     background-color:#2E2F42 ;
-    font-family: Raleway;
-    font-style: normal;
-
+   
 }
 
 
-.footer-tex{
+.footer-text{
     font-size: 16px;
     line-height: 24px;
     color: #F4F4FD;
@@ -217,7 +179,7 @@ color:  #2E2F42;
     letter-spacing: 0.02em;
 }
 
-..footer-studio{
+.footer-studio{
     color:  #F4F4FD;
     font-size: 18px;
     line-height: 21px;
