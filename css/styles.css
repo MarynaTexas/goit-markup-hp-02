@@ -95,7 +95,7 @@ text-align: center;
 }
 
 
-.first-button :hover,
+.first-button:hover,
 .first-button:focus{
    background-color: #404bbf;
 }
