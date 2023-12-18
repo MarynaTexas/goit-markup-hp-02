@@ -13,12 +13,10 @@
 .header{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
-    border-bottom: 1px solid  #E7E9FC;
     background:  #FFF;
 }
 
 .nav{
-   border-bottom:  #E7E9FC;
    background: #FFF;
 
 }
@@ -45,16 +43,13 @@
 
 
 .list-nav{
-    border-bottom:  #E7E9FC;
     background: #FFF;
 
 }
 
 
 .list-item{
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     line-height: 24px;
     letter-spacing: 0.02em;
 }
@@ -96,13 +91,28 @@ color: #434455;
 
 .firs-title{
 font-size: 56px;
-line-height: 60px; 
+line-height: 1.07; 
 letter-spacing: 0.02em
+color:  #FFF;
+text-align: center;
 
 }
 
-.firs-button{
-    background:  #4D5AE5; 
+
+.button{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: 0.04;
+    color: #FFF;
+}
+
+
+.firs-button :hover
+.first-button:focus{
+    background-color: #404bbf 
 }
 
 
