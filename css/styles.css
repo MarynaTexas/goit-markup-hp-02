@@ -14,7 +14,7 @@ body{
    font-size: 18px;
    line-height: 21px;
    letter-spacing: 0.02em;
-   
+   font-weight: 700;
 }
 
 .logo-span{
@@ -22,13 +22,16 @@ body{
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 0.02em;
-    
+    font-weight: 700;
 }
 
 a{
     text-decoration: none;
 }
 
+ul{
+    list-style: none;
+}
 
 .list-item-link{
     color:  #2E2F42;
@@ -38,6 +41,10 @@ a{
 
 }
 
+.list-item-link:hover,
+.list-item-link:focus{
+color: #4d5ae5;
+}
 
 .address{
     font-style: normal;
@@ -82,6 +89,8 @@ text-align: center;
     letter-spacing: 0.04;
     color: #FFF;
     cursor: pointer;
+    background-color: #4D5AE5;
+    
 }
 
 
