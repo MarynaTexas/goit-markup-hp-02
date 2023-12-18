@@ -12,17 +12,19 @@ body{
    font-family: 'Raleway', sans-serif;
    color: #4D5AE5;
    font-size: 18px;
-   line-height: 1.16;
-   letter-spacing: 0.02em;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
    font-weight: 700;
+   text-transform: uppercase;
 }
 
 .logo-span{
     color: #2E2F42;
     font-size: 18px;
-    line-height: 1.16;
-    letter-spacing: 0.02em;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 a{
@@ -96,7 +98,7 @@ text-align: center;
 
 .first-button :hover,
 .first-button:focus{
-    background-color: #404bbf 
+    background-color: #404BBF;
 }
 
 
@@ -161,6 +163,8 @@ text-align: center;
     text-align: center;
     letter-spacing: 0.02em;
     color:  #2E2F42;
+    text-align: center;
+
 }
 
 
@@ -169,6 +173,7 @@ text-align: center;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:  #2E2F42;
+    font-weight: 500;
 }
 
 .apps-text{
