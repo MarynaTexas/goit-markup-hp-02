@@ -45,7 +45,7 @@ ul{
 
 .list-item-link:hover,
 .list-item-link:focus{
-background-color: #404bbF;
+color: #404bbF;
 }
 
 .address{
@@ -97,7 +97,7 @@ text-align: center;
 
 .first-button :hover,
 .first-button:focus{
-    background-color: #404bbf;
+   background-color: #404bbf;
 }
 
 
